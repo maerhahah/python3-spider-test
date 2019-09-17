@@ -53,9 +53,9 @@ if __name__ == '__main__':
     # print(sys.argv[1])
     # exit(1)
 
+    USERNAME = sys.argv[1]
+    PASSWORD = sys.argv[2]
     url = 'https://www.legistorm.com/'
-    USERNAME = 'david_chendl'
-    PASSWORD = 'zaq!@wsx'
     topMenuUrlFile = 'topMenuUrl.txt'
 
     html = getHtml(url, USERNAME, PASSWORD)
